@@ -1,0 +1,530 @@
+{
+  "migratedAt": "2026-06-04T12:18:27.066Z",
+  "home": {
+    "heroImage": "/media/home/hero.jpeg",
+    "heroVideo": "/media/home/hero-video.mp4",
+    "images": []
+  },
+  "models": {
+    "aqua": {
+      "hero": "/models/aqua/hero.png",
+      "interior": "/models/aqua/interior.jpg",
+      "gallery": [
+        "/models/aqua/gallery-1.jpg",
+        "/models/aqua/gallery-2.jpg",
+        "/models/aqua/gallery-3.png",
+        "/models/aqua/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1BZFPTR8YG2YhZT-BTHry6w4Hkd6cuHCi/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "anker": {
+      "hero": "/models/anker/hero.png",
+      "interior": "/models/anker/interior.jpg",
+      "gallery": [
+        "/models/anker/gallery-1.jpg",
+        "/models/anker/gallery-2.jpg",
+        "/models/anker/gallery-3.jpg",
+        "/models/anker/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1G1T7hoHbmdQRb05-6bFWMO4YgY_12rOn/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview",
+        "https://drive.google.com/file/d/1EbRzlIjRuHrjsUsSZr62GZsNAIGHXWc7/preview?usp=sharing",
+        "https://drive.google.com/file/d/1gJmoo12MB6JA4m7f4M4m8-htRd4ethjh/preview?usp=sharing"
+      ]
+    },
+    "arest": {
+      "hero": "/models/arest/hero.jpg",
+      "interior": "/models/arest/interior.jpg",
+      "gallery": [
+        "/models/arest/gallery-1.jpg",
+        "/models/arest/gallery-2.jpg",
+        "/models/arest/gallery-3.jpg",
+        "/models/arest/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "boreal": {
+      "hero": "/models/boreal/hero.png",
+      "interior": "/models/boreal/interior.jpg",
+      "gallery": [
+        "/models/boreal/gallery-1.jpg",
+        "/models/boreal/gallery-2.jpg",
+        "/models/boreal/gallery-3.png",
+        "/models/boreal/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1J13XP79HdTz0CdDlmDRM5OuHYURPKuc8/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "bushome": {
+      "hero": "/models/bushome/hero.png",
+      "interior": "/models/bushome/interior.jpeg",
+      "gallery": [
+        "/models/bushome/gallery-1.jpeg",
+        "/models/bushome/gallery-2.jpeg",
+        "/models/bushome/gallery-3.jpeg",
+        "/models/bushome/gallery-4.jpeg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1mmCiezztdxDn7QNImlLdAsXeImgxmqNC/preview",
+        "https://drive.google.com/file/d/17cy_OuSHJh7yIYh0AfOlMtU2qIrWb0uX/preview",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "chiilout": {
+      "hero": "/models/chiilout/hero.png",
+      "interior": "/models/chiilout/interior.jpeg",
+      "gallery": [
+        "/models/chiilout/gallery-1.jpeg",
+        "/models/chiilout/gallery-2.jpeg",
+        "/models/chiilout/gallery-3.jpeg",
+        "/models/chiilout/gallery-4.jpeg"
+      ],
+      "pdfs": []
+    },
+    "chillneo": {
+      "hero": "/models/chillneo/hero.jpeg",
+      "interior": "/models/chillneo/interior.jpeg",
+      "gallery": [
+        "/models/chillneo/gallery-1.jpeg",
+        "/models/chillneo/gallery-2.jpeg",
+        "/models/chillneo/gallery-3.jpeg",
+        "/models/chillneo/gallery-4.jpeg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1GU9BPAksZsYq3im8eVoTDFMJIhywZJo1/preview",
+        "https://drive.google.com/file/d/1kQEtJTi3pIR4MzSvdFZU2xGE3mTTBdZ5/preview",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "communicate": {
+      "hero": "/models/communicate/hero.jpeg",
+      "interior": "/models/communicate/interior.jpeg",
+      "gallery": [
+        "/models/communicate/gallery-1.jpeg",
+        "/models/communicate/gallery-2.jpeg",
+        "/models/communicate/gallery-3.jpeg",
+        "/models/communicate/gallery-4.jpeg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "cube": {
+      "hero": "/models/cube/hero.jpg",
+      "interior": "/models/cube/interior.jpg",
+      "gallery": [
+        "/models/cube/gallery-1.jpg",
+        "/models/cube/gallery-2.jpg",
+        "/models/cube/gallery-3.jpg",
+        "/models/cube/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "curvepod": {
+      "hero": "/models/curvepod/hero.png",
+      "interior": "/models/curvepod/interior.jpg",
+      "gallery": [
+        "/models/curvepod/gallery-1.jpg",
+        "/models/curvepod/gallery-2.jpg",
+        "/models/curvepod/gallery-3.jpg",
+        "/models/curvepod/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1eO0yVZzC1KA_-ZceD7huUxIQsZ5RKvGd/preview?usp=sharing",
+        "https://drive.google.com/file/d/1YcYhumYc55_ZjgT1yDDME4aoV79SOQYB/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "diamond": {
+      "hero": "/models/diamond/hero.png",
+      "interior": "/models/diamond/interior.jpg",
+      "gallery": [
+        "/models/diamond/gallery-1.jpg",
+        "/models/diamond/gallery-2.jpg",
+        "/models/diamond/gallery-3.jpg",
+        "/models/diamond/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1qFzsfu09nvU3vHcWNQnjwCr-I0eGoy2S/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "fenix": {
+      "hero": "/models/fenix/hero.png",
+      "interior": "/models/fenix/interior.jpg",
+      "gallery": [
+        "/models/fenix/gallery-1.jpg",
+        "/models/fenix/gallery-2.jpg",
+        "/models/fenix/gallery-3.jpg",
+        "/models/fenix/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1YcZThOs9N5lz5yEBa_WxILYQMnbxmOMW/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "fjord": {
+      "hero": "/models/fjord/hero.png",
+      "interior": "/models/fjord/interior.jpg",
+      "gallery": [
+        "/models/fjord/gallery-1.jpg",
+        "/models/fjord/gallery-2.jpg",
+        "/models/fjord/gallery-3.png",
+        "/models/fjord/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/13NeirFTVuWCIZYJ7LuLkhLjv81QQndrT/preview?usp=sharing",
+        "https://drive.google.com/file/d/1U7qGBnxa2o2pl-IZoaIEM9xcuRvUiYmm/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "glory": {
+      "hero": "/models/glory/hero.jpg",
+      "interior": "/models/glory/interior.jpg",
+      "gallery": [
+        "/models/glory/gallery-1.jpg",
+        "/models/glory/gallery-2.jpg",
+        "/models/glory/gallery-3.jpg",
+        "/models/glory/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "hafen": {
+      "hero": "/models/hafen/hero.png",
+      "interior": "/models/hafen/interior.jpg",
+      "gallery": [
+        "/models/hafen/gallery-1.jpg",
+        "/models/hafen/gallery-2.jpg",
+        "/models/hafen/gallery-3.jpg",
+        "/models/hafen/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1W0vcdnvOj9euRKVFX795rqPU_1EPkCib/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview",
+        "https://drive.google.com/file/d/1i0iW8XrIsJyTfR4gOS8fjwveZs6oNVMR/preview?usp=sharing",
+        "https://drive.google.com/file/d/1XEngFxarShlUEb7Mgmue0bS1SHCRCwT8/preview?usp=sharing"
+      ]
+    },
+    "heady": {
+      "hero": "/models/heady/hero.png",
+      "interior": "/models/heady/interior.jpg",
+      "gallery": [
+        "/models/heady/gallery-1.jpg",
+        "/models/heady/gallery-2.jpg",
+        "/models/heady/gallery-3.png",
+        "/models/heady/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1C8ZtxlVt-dTFFvzTc08vl-p8-WjC_VzV/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "igloo": {
+      "hero": "/models/igloo/hero.png",
+      "interior": "/models/igloo/interior.jpg",
+      "gallery": [
+        "/models/igloo/gallery-1.jpg",
+        "/models/igloo/gallery-2.jpg",
+        "/models/igloo/gallery-3.png",
+        "/models/igloo/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1S5G_z9PeiF1ztYbM_wgrpSapWGhI-3Km/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "isos": {
+      "hero": "/models/isos/hero.png",
+      "interior": "/models/isos/interior.jpg",
+      "gallery": [
+        "/models/isos/gallery-1.jpg",
+        "/models/isos/gallery-2.jpg",
+        "/models/isos/gallery-3.png",
+        "/models/isos/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/127jDkFffB2Y3vIIWP3z7bOx8XnKg2YmC/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "jurgen": {
+      "hero": "/models/jurgen/hero.png",
+      "interior": "/models/jurgen/interior.jpg",
+      "gallery": [
+        "/models/jurgen/gallery-1.jpg",
+        "/models/jurgen/gallery-2.jpg",
+        "/models/jurgen/gallery-3.jpg",
+        "/models/jurgen/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1AFGXQ9qDp8siMRCHH3XM3d2XgyxD1cBU/preview?usp=sharing",
+        "https://drive.google.com/file/d/15luH5LWXwiY_tmTle3SvaKWwlYw6l1CE/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "kelo": {
+      "hero": "/models/kelo/hero.png",
+      "interior": "/models/kelo/interior.jpg",
+      "gallery": [
+        "/models/kelo/gallery-1.jpg",
+        "/models/kelo/gallery-2.jpg",
+        "/models/kelo/gallery-3.jpg",
+        "/models/kelo/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1cabVusG3XCYcOxaskDUrPWDpLy3OkX9D/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview",
+        "https://drive.google.com/file/d/1q_hiRxpvbBbjqDea7-ontTYRKDTv4Zbz/preview?usp=sharing",
+        "https://drive.google.com/file/d/1pBZ47G02Ox9rIrI0txqQSRt-TTh40575/view?usp=sharing"
+      ]
+    },
+    "lakeview": {
+      "hero": "/models/lakeview/hero.jpg",
+      "interior": "/models/lakeview/interior.jpg",
+      "gallery": [
+        "/models/lakeview/gallery-1.jpg",
+        "/models/lakeview/gallery-2.jpg",
+        "/models/lakeview/gallery-3.jpg",
+        "/models/lakeview/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1S-TxwxF2QYX1G6rx8iCGxvgTIieIk2Ub/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "lando": {
+      "hero": "/models/lando/hero.png",
+      "interior": "/models/lando/interior.jpg",
+      "gallery": [
+        "/models/lando/gallery-1.jpg",
+        "/models/lando/gallery-2.jpg",
+        "/models/lando/gallery-3.jpg",
+        "/models/lando/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1h8bi4GFUXm3ZXdeBHOW4VTSvyJMsXJTq/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview",
+        "https://drive.google.com/file/d/1ixsEe-R4bqsy2mK7yuIjPFvp9zIysuVU/preview?usp=sharing",
+        "https://drive.google.com/file/d/1eeuOIevEy1QnvjYla4yEQR8v5b_PW7dB/preview?usp=sharing"
+      ]
+    },
+    "ligna": {
+      "hero": "/models/ligna/hero.png",
+      "interior": "/models/ligna/interior.jpg",
+      "gallery": [
+        "/models/ligna/gallery-1.jpg",
+        "/models/ligna/gallery-2.jpg",
+        "/models/ligna/gallery-3.png",
+        "/models/ligna/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1LqrQiHRMzn2yRWtfOyTzP_6RYe7RiGpE/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "martin": {
+      "hero": "/models/martin/hero.png",
+      "interior": "/models/martin/interior.jpg",
+      "gallery": [
+        "/models/martin/gallery-1.jpg",
+        "/models/martin/gallery-2.jpg",
+        "/models/martin/gallery-3.jpg",
+        "/models/martin/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1RCPaPK1pyM477U5ZYhIdXDZBr2VzWy9U/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "nebuda": {
+      "hero": "/models/nebuda/hero.png",
+      "interior": "/models/nebuda/interior.jpg",
+      "gallery": [
+        "/models/nebuda/gallery-1.jpg",
+        "/models/nebuda/gallery-2.jpg",
+        "/models/nebuda/gallery-3.jpg",
+        "/models/nebuda/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1VUWqW5o_U54sJAPKkldzbF4reWKE1bVm/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "nest": {
+      "hero": "/models/nest/hero.png",
+      "interior": "/models/nest/interior.jpg",
+      "gallery": [
+        "/models/nest/gallery-1.jpg",
+        "/models/nest/gallery-2.jpg",
+        "/models/nest/gallery-3.jpg",
+        "/models/nest/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1xxgjCDcH62WIWkvKHFuhWYTSwTD0gDSG/preview?usp=sharing",
+        "https://drive.google.com/file/d/1Zu31rg8EEd0rYF2cWU4Xq_IH-7tr84HX/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "niapol": {
+      "hero": "/models/niapol/hero.jpg",
+      "interior": "/models/niapol/interior.jpg",
+      "gallery": [
+        "/models/niapol/gallery-1.jpg",
+        "/models/niapol/gallery-2.jpg",
+        "/models/niapol/gallery-3.jpg",
+        "/models/niapol/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "sylph": {
+      "hero": "/models/sylph/hero.png",
+      "interior": "/models/sylph/interior.jpg",
+      "gallery": [
+        "/models/sylph/gallery-1.jpg",
+        "/models/sylph/gallery-2.jpg",
+        "/models/sylph/gallery-3.png",
+        "/models/sylph/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1XAstcxkCi4Sy06KGzSQ6XWAyUpUzvJce/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "terrahome": {
+      "hero": "/models/terrahome/hero.jpg",
+      "interior": "/models/terrahome/interior.jpg",
+      "gallery": [
+        "/models/terrahome/gallery-1.jpg",
+        "/models/terrahome/gallery-2.jpg",
+        "/models/terrahome/gallery-3.jpg",
+        "/models/terrahome/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1FmcIi9-Hq4koXqnalY1vhWgLjt1HVzWV/preview?usp=sharing",
+        "https://drive.google.com/file/d/13Imy7NIMehaO1zYOravT9mo9ycQVxn1b/view?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/view"
+      ]
+    },
+    "thermis": {
+      "hero": "/models/thermis/hero.jpeg",
+      "interior": "/models/thermis/interior.jpeg",
+      "gallery": [
+        "/models/thermis/gallery-1.jpeg",
+        "/models/thermis/gallery-2.jpeg",
+        "/models/thermis/gallery-3.jpeg",
+        "/models/thermis/gallery-4.jpeg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "timber": {
+      "hero": "/models/timber/hero.png",
+      "interior": "/models/timber/interior.jpg",
+      "gallery": [
+        "/models/timber/gallery-1.jpg",
+        "/models/timber/gallery-2.jpg",
+        "/models/timber/gallery-3.png",
+        "/models/timber/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/18qztACPGBU5hoqMIclKxJgjFPc9SduMX/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "tores": {
+      "hero": "/models/tores/hero.jpg",
+      "interior": "/models/tores/interior.jpg",
+      "gallery": [
+        "/models/tores/gallery-1.jpg",
+        "/models/tores/gallery-2.jpg",
+        "/models/tores/gallery-3.jpg",
+        "/models/tores/gallery-4.jpg"
+      ],
+      "pdfs": []
+    },
+    "ventara": {
+      "hero": "/models/ventara/hero.png",
+      "interior": "/models/ventara/interior.jpg",
+      "gallery": [
+        "/models/ventara/gallery-1.jpg",
+        "/models/ventara/gallery-2.jpg",
+        "/models/ventara/gallery-3.png",
+        "/models/ventara/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1EDLpen9riHTtDnVgxs8Hp7zGoJ5U3tqX/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "verde": {
+      "hero": "/models/verde/hero.png",
+      "interior": "/models/verde/interior.jpg",
+      "gallery": [
+        "/models/verde/gallery-1.jpg",
+        "/models/verde/gallery-2.jpg",
+        "/models/verde/gallery-3.png",
+        "/models/verde/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1DJn-5YWX-JeScA1OjqVvktxD7_zBz75O/view?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview",
+        "https://drive.google.com/file/d/1DJn-5YWX-JeScA1OjqVvktxD7_zBz75O/preview?usp=sharing"
+      ]
+    },
+    "vespera": {
+      "hero": "/models/vespera/hero.png",
+      "interior": "/models/vespera/interior.jpg",
+      "gallery": [
+        "/models/vespera/gallery-1.jpg",
+        "/models/vespera/gallery-2.jpg",
+        "/models/vespera/gallery-3.png",
+        "/models/vespera/gallery-4.png"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1AoE20bx1xazYR9PD1L0-lQO7RHQ_9zPB/preview?usp=sharing",
+        "https://drive.google.com/file/d/1RzFPZuY9gaC757_i7Mp9F8XcYDPbWScO/preview"
+      ]
+    },
+    "vulcano": {
+      "hero": "/models/vulcano/hero.jpeg",
+      "interior": "/models/vulcano/interior.jpeg",
+      "gallery": [
+        "/models/vulcano/gallery-1.jpeg",
+        "/models/vulcano/gallery-2.jpeg",
+        "/models/vulcano/gallery-3.jpeg",
+        "/models/vulcano/gallery-4.jpeg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    },
+    "warm": {
+      "hero": "/models/warm/hero.jpg",
+      "interior": "/models/warm/interior.jpg",
+      "gallery": [
+        "/models/warm/gallery-1.jpg",
+        "/models/warm/gallery-2.jpg",
+        "/models/warm/gallery-3.jpg",
+        "/models/warm/gallery-4.jpg"
+      ],
+      "pdfs": [
+        "https://drive.google.com/file/d/1zuHdYHioyijp2jpLz-UbXrFUqFx0qxcR/view?usp=sharing"
+      ]
+    }
+  }
+}

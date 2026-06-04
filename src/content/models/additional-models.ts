@@ -1,0 +1,313 @@
+import type { HouseModel } from "./types";
+
+/** Models migrated from vn-modulhaus.de (not in initial 19-model set) */
+export const additionalRawModels: Array<
+  Omit<HouseModel, "images" | "pdfs">
+> = [
+  {
+    slug: "aqua",
+    name: "Aqua",
+    category: "klein",
+    livingAreaM2: 30.2,
+    totalAreaM2: 42,
+    priceFromEur: 85428,
+    pricePerM2Eur: 2829,
+    specs: { modules: 1, rooms: 1, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Klar und kompakt – ideal als Gäste- oder Ferienhaus",
+    seo: {
+      title: "Aqua 30,2 m²",
+      description:
+        "Modulhaus Aqua mit 30,2 m² Wohnfläche – schlüsselfertig, KfW 55, Montage in 90 Tagen.",
+    },
+  },
+  {
+    slug: "curvepod",
+    name: "CurvePod",
+    category: "klein",
+    livingAreaM2: 36.83,
+    totalAreaM2: 50.04,
+    priceFromEur: 101781,
+    pricePerM2Eur: 2764,
+    specs: { modules: 1, rooms: 2, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Organische Form, maximale Wirkung auf kleiner Fläche",
+    seo: {
+      title: "CurvePod 36,83 m²",
+      description:
+        "Modulhaus CurvePod – geschwungene Architektur, 36,83 m² Wohnfläche, schlüsselfertig.",
+    },
+  },
+  {
+    slug: "igloo",
+    name: "Igloo",
+    category: "klein",
+    livingAreaM2: 30.2,
+    totalAreaM2: 50,
+    priceFromEur: 101700,
+    pricePerM2Eur: 3368,
+    specs: { modules: 1, rooms: 1, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Rundes Wohnen mit besonderem Charakter",
+    seo: {
+      title: "Igloo 30,2 m²",
+      description:
+        "Modulhaus Igloo – kompaktes Runddesign, ganzjährig wohnbar, KfW 55.",
+    },
+  },
+  {
+    slug: "jurgen",
+    name: "Jürgen",
+    category: "klein",
+    livingAreaM2: 40.9,
+    totalAreaM2: 56,
+    priceFromEur: 113904,
+    pricePerM2Eur: 2785,
+    specs: { modules: 1, rooms: 2, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Großzügig wohnen unter 45 m²",
+    seo: {
+      title: "Jürgen 40,9 m²",
+      description:
+        "Modulhaus Jürgen – 40,9 m² Wohnfläche, durchdachte Raumaufteilung, schlüsselfertig.",
+    },
+  },
+  {
+    slug: "terrahome",
+    name: "TerraHome",
+    category: "klein",
+    livingAreaM2: 34.7,
+    totalAreaM2: 47.24,
+    priceFromEur: 96086,
+    pricePerM2Eur: 2769,
+    specs: { modules: 1, rooms: 1, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Naturnah und effizient geplant",
+    seo: {
+      title: "TerraHome 34,7 m²",
+      description:
+        "Modulhaus TerraHome – 34,7 m², energieeffizient, ideal für Dauer- oder Ferienwohnen.",
+    },
+  },
+  {
+    slug: "verde",
+    name: "Verde",
+    category: "klein",
+    livingAreaM2: 22.5,
+    totalAreaM2: 32,
+    priceFromEur: 73743,
+    pricePerM2Eur: 3277,
+    specs: { modules: 1, rooms: 1, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Das kleinste Modell – maximal effizient",
+    seo: {
+      title: "Verde 22,5 m²",
+      description:
+        "Modulhaus Verde – nur 22,5 m² Wohnfläche, perfekt als Büro, Gästehaus oder Tiny Home.",
+    },
+  },
+  {
+    slug: "diamond",
+    name: "Diamond",
+    category: "mittel",
+    livingAreaM2: 83.3,
+    totalAreaM2: 104,
+    priceFromEur: 204360,
+    pricePerM2Eur: 2453,
+    specs: { modules: 3, rooms: 4, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Großzügiges Familienhaus in Modulbauweise",
+    seo: {
+      title: "Diamond 83,3 m²",
+      description:
+        "Modulhaus Diamond – 83,3 m² Wohnfläche, viel Platz für Familie und Homeoffice.",
+    },
+  },
+  {
+    slug: "heady",
+    name: "Heady",
+    category: "mittel",
+    livingAreaM2: 69,
+    totalAreaM2: 108,
+    priceFromEur: 212220,
+    pricePerM2Eur: 3076,
+    specs: { modules: 2, rooms: 3, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Offene Räume mit architektonischem Anspruch",
+    seo: {
+      title: "Heady 69 m²",
+      description:
+        "Modulhaus Heady – 69 m² Wohnfläche, lichtdurchflutet, schlüsselfertig montiert.",
+    },
+  },
+  {
+    slug: "kelo",
+    name: "Kelo",
+    category: "mittel",
+    livingAreaM2: 82.01,
+    totalAreaM2: 104.62,
+    priceFromEur: 205578,
+    pricePerM2Eur: 2507,
+    specs: { modules: 3, rooms: 4, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Natürliche Materialien, großzügige Proportionen",
+    seo: {
+      title: "Kelo 82 m²",
+      description:
+        "Modulhaus Kelo – Holzcharakter, 82 m² Wohnfläche, KfW 55 Standard.",
+    },
+  },
+  {
+    slug: "lakeview",
+    name: "LakeView",
+    category: "mittel",
+    livingAreaM2: 58.28,
+    totalAreaM2: 89.77,
+    priceFromEur: 176416,
+    pricePerM2Eur: 3027,
+    specs: { modules: 2, rooms: 3, bathrooms: 1 },
+    kfw: "55",
+    tagline: "Panorama-Fenster und klare Linien",
+    seo: {
+      title: "LakeView 58,28 m²",
+      description:
+        "Modulhaus LakeView – 58,28 m², viel Glas, ideal für See- und Hanglagen.",
+    },
+  },
+  {
+    slug: "ligna",
+    name: "Ligna",
+    category: "mittel",
+    livingAreaM2: 62.7,
+    totalAreaM2: 104,
+    priceFromEur: 204360,
+    pricePerM2Eur: 3259,
+    specs: { modules: 2, rooms: 3, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Warme Holzoptik, zeitloses Design",
+    seo: {
+      title: "Ligna 62,7 m²",
+      description:
+        "Modulhaus Ligna – 62,7 m² Wohnfläche, natürliche Fassade, schlüsselfertig.",
+    },
+  },
+  {
+    slug: "martin",
+    name: "Martin",
+    category: "mittel",
+    livingAreaM2: 90,
+    totalAreaM2: 112,
+    priceFromEur: 220080,
+    pricePerM2Eur: 2445,
+    specs: { modules: 3, rooms: 4, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Großes Mittelklasse-Haus für anspruchsvolle Nutzer",
+    seo: {
+      title: "Martin 90 m²",
+      description:
+        "Modulhaus Martin – 90 m² Wohnfläche, flexibel planbar, Montage in 90 Tagen.",
+    },
+  },
+  {
+    slug: "nebuda",
+    name: "Nebuda",
+    category: "mittel",
+    livingAreaM2: 89.2,
+    totalAreaM2: 132,
+    priceFromEur: 259380,
+    pricePerM2Eur: 2908,
+    specs: { modules: 3, rooms: 4, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Großzügige Raumhöhe und offene Grundrisse",
+    seo: {
+      title: "Nebuda 89,2 m²",
+      description:
+        "Modulhaus Nebuda – 89,2 m², ideal für Familie mit Platzbedarf, KfW 55.",
+    },
+  },
+  {
+    slug: "nest",
+    name: "Nest",
+    category: "mittel",
+    livingAreaM2: 73.2,
+    totalAreaM2: 92.4,
+    priceFromEur: 181566,
+    pricePerM2Eur: 2480,
+    specs: { modules: 2, rooms: 3, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Geborgen wohnen mit durchdachter Aufteilung",
+    seo: {
+      title: "Nest 73,2 m²",
+      description:
+        "Modulhaus Nest – 73,2 m² Wohnfläche, komfortabel für Paare und kleine Familien.",
+    },
+  },
+  {
+    slug: "sylph",
+    name: "Sylph",
+    category: "mittel",
+    livingAreaM2: 65.9,
+    totalAreaM2: 104,
+    priceFromEur: 204360,
+    pricePerM2Eur: 3101,
+    specs: { modules: 2, rooms: 3, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Leicht und elegant – moderne Modularchitektur",
+    seo: {
+      title: "Sylph 65,9 m²",
+      description:
+        "Modulhaus Sylph – 65,9 m², filigrane Erscheinung, schlüsselfertig geliefert.",
+    },
+  },
+  {
+    slug: "ventara",
+    name: "Ventara",
+    category: "mittel",
+    livingAreaM2: 89.3,
+    totalAreaM2: 112,
+    priceFromEur: 220080,
+    pricePerM2Eur: 2465,
+    specs: { modules: 3, rooms: 4, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Luftige Räume mit großzügigen Terrassen",
+    seo: {
+      title: "Ventara 89,3 m²",
+      description:
+        "Modulhaus Ventara – 89,3 m² Wohnfläche, viel Tageslicht, KfW 55.",
+    },
+  },
+  {
+    slug: "vespera",
+    name: "Vespera",
+    category: "mittel",
+    livingAreaM2: 62.7,
+    totalAreaM2: 104,
+    priceFromEur: 204360,
+    pricePerM2Eur: 3259,
+    specs: { modules: 2, rooms: 3, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Abendsonne und ruhige Wohnatmosphäre",
+    seo: {
+      title: "Vespera 62,7 m²",
+      description:
+        "Modulhaus Vespera – 62,7 m², harmonische Proportionen, schlüsselfertig.",
+    },
+  },
+  {
+    slug: "fenix",
+    name: "Fenix",
+    category: "gross",
+    livingAreaM2: 107.3,
+    totalAreaM2: 159,
+    priceFromEur: 312435,
+    pricePerM2Eur: 2912,
+    specs: { modules: 4, rooms: 5, bathrooms: 2 },
+    kfw: "55",
+    tagline: "Großes Einfamilienhaus in modularer Bauweise",
+    seo: {
+      title: "Fenix 107,3 m²",
+      description:
+        "Modulhaus Fenix – über 107 m² Wohnfläche, individuell erweiterbar, KfW 55.",
+    },
+  },
+];

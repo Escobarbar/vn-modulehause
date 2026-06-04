@@ -1,65 +1,115 @@
-import Image from "next/image";
+import { createMetadata } from "@/content/seo";
+import { siteConfig } from "@/content/site";
+import { HeroSection } from "@/components/home/HeroSection";
+import { FadeInView } from "@/components/motion/FadeInView";
+import { BentoCollection } from "@/components/home/BentoCollection";
+import { SizeCategoriesSection } from "@/components/home/SizeCategoriesSection";
+import { AdvantagesSection } from "@/components/home/AdvantagesSection";
+import { WhyVnSection } from "@/components/home/WhyVnSection";
+import { CtaBand } from "@/components/home/CtaBand";
+import { PricingSection } from "@/components/home/PricingSection";
+import { ValuesSection } from "@/components/home/ValuesSection";
+import { ModelGallerySection } from "@/components/home/ModelGallerySection";
+import { ProcessTimeline } from "@/components/home/ProcessTimeline";
+import { FaqSection } from "@/components/home/FaqSection";
+import { UseCasesSection } from "@/components/home/UseCasesSection";
+import { JsonLd } from "@/components/layout/JsonLd";
+import { faqJsonLd } from "@/content/seo";
+import { faqs } from "@/content/pages/home";
+import Link from "next/link";
+import { SectionHeading } from "@/components/shared/SectionHeading";
 
-export default function Home() {
+export const metadata = createMetadata({
+  path: "/",
+  description:
+    "Schlüsselfertige Modulhäuser von 30 bis 440 m² – KfW 55, Fixpreis, Montage in 90 Tagen. VN Modulhaus: individuell geplant, präzise gefertigt.",
+});
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      <JsonLd data={faqJsonLd(faqs)} />
+      <HeroSection />
+      <BentoCollection />
+      <SizeCategoriesSection />
+      <AdvantagesSection />
+      <WhyVnSection />
+      <CtaBand />
+      <PricingSection />
+      <ValuesSection />
+
+      <section id="modelle" className="scroll-mt-28 border-t border-border py-10 sm:py-12">
+        <FadeInView className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+          <SectionHeading
+            title="Inspiration für Ihr zukünftiges Zuhause"
+            description="Jedes Projekt entsteht individuell – ganz neu oder auf Basis eines bestehenden Modells. Sie wählen aus – wir passen es an."
+            align="center"
+          />
+        </FadeInView>
+      </section>
+
+      <ModelGallerySection
+        id="klein"
+        category="klein"
+        title="Häuser bis 45 m²"
+        description="Funktionalität und Gemütlichkeit auf kleinem Raum – ideal für ein bis zwei Personen."
+      />
+      <ModelGallerySection
+        id="mittel"
+        category="mittel"
+        title="Hausvarianten 50–85 m²"
+        description="Moderne Familienhäuser mit durchdachter Raumaufteilung – komfortabel das ganze Jahr."
+      />
+      <ModelGallerySection
+        id="gross"
+        category="gross"
+        title="Häuser über 90 m²"
+        description="Großzügige Häuser mit individueller Planung – vom Hauptwohnsitz bis zur Landresidenz."
+      />
+      <ModelGallerySection
+        id="camping"
+        category="camping"
+        title="Camping & Glamping"
+        description="Modulhäuser für Tourismus, Ferienparks und gewerbliche Nutzung."
+      />
+
+      <section className="border-t border-border py-10 sm:py-12">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-6 md:grid-cols-2">
+            <FadeInView delay={0}>
+            <Link
+              href="/#gross"
+              className="group block rounded-3xl border border-border bg-card p-8 transition-all hover:border-primary/30 hover:shadow-md"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              <h3 className="font-display text-xl font-bold text-foreground">
+                Zweistöckige Modulbauten
+              </h3>
+              <p className="mt-2 text-muted-foreground">
+                Wir setzen Ideen für kommerzielle Projekte um.
+              </p>
+            </Link>
+            </FadeInView>
+            <FadeInView delay={0.08}>
+            <Link
+              href="/sauna"
+              className="group block rounded-3xl border border-border bg-card p-8 transition-all hover:border-primary/30 hover:shadow-md"
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              <h3 className="font-display text-xl font-bold text-foreground">
+                Sauna-Projekte
+              </h3>
+              <p className="mt-2 text-muted-foreground">
+                Modulare Saunen – privat oder gewerblich.
+              </p>
+            </Link>
+            </FadeInView>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </section>
+
+      <UseCasesSection />
+      <ProcessTimeline />
+      <FaqSection />
+      <CtaBand />
+    </>
   );
 }
