@@ -1,16 +1,7 @@
 import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import { Plus_Jakarta_Sans, Syne } from "next/font/google";
-import { SkipLink } from "@/components/layout/SkipLink";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { CookieConsent } from "@/components/layout/CookieConsent";
-import { JsonLd } from "@/components/layout/JsonLd";
-import {
-  createMetadata,
-  localBusinessJsonLd,
-  websiteJsonLd,
-} from "@/content/seo";
+import { createMetadata } from "@/content/seo";
 import "./globals.css";
 
 const syne = Syne({
@@ -43,14 +34,7 @@ export default function RootLayout({
       className={`${syne.variable} ${plusJakarta.variable} ${geistMono.variable} h-full`}
     >
       <body className="min-h-full flex flex-col font-sans antialiased">
-        <SkipLink />
-        <JsonLd data={[localBusinessJsonLd(), websiteJsonLd()]} />
-        <Header />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
-        <CookieConsent />
+        {children}
       </body>
     </html>
   );
