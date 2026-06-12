@@ -1,13 +1,6 @@
 import { WineggReveal } from "@/components/winegg/WineggReveal";
 import { processSteps } from "@/content/pages/home";
 
-const highlightSteps = [
-  processSteps[0],
-  processSteps[1],
-  processSteps[3],
-  processSteps[7],
-];
-
 export const WineggProcessSection = () => (
   <section className="winegg-section-alt py-16 sm:py-24">
     <div className="mx-auto max-w-[1920px] px-4 sm:px-8 lg:px-12">
@@ -21,7 +14,7 @@ export const WineggProcessSection = () => (
       </WineggReveal>
 
       <ol className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-        {highlightSteps.map((step, i) => (
+        {processSteps.map((step, i) => (
           <WineggReveal key={step.step} delay={150 + i * 100}>
             <li className="relative">
               <span className="font-winegg-display text-5xl text-[var(--winegg-gold)]/30">
