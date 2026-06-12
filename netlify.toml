@@ -1,8 +1,11 @@
 [build]
-  command = "npm run build"
+  command = "npm ci && npm run build:netlify"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
   NODE_VERSION = "20"
+  # Dev deps (tsx, typescript, tailwind) are required for Next.js builds.
+  NPM_CONFIG_PRODUCTION = "false"
+  NPM_FLAGS = "--include=dev"
