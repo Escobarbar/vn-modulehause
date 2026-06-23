@@ -1,0 +1,224 @@
+.theme-sonder {
+  overflow-x: clip;
+
+  --sonder-blue: #4a6274;
+  --sonder-blue-light: #d5dce4;
+  --sonder-blue-muted: #8a9baa;
+  --sonder-navy: #1a2530;
+  --sonder-navy-light: #2d3e4e;
+  --sonder-white: #ffffff;
+  --sonder-surface: #e8edf2;
+  --sonder-surface-alt: #f4f6f8;
+  --sonder-accent: #6b8f7a;
+  --sonder-accent-hover: #5a7d69;
+  --sonder-border: rgb(26 37 48 / 0.1);
+
+  --background: var(--sonder-surface);
+  --foreground: var(--sonder-navy);
+
+  --sonder-radius-sm: 8px;
+  --sonder-radius-md: 16px;
+  --sonder-radius-lg: 24px;
+
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sonder-sans), ui-sans-serif, sans-serif;
+}
+
+.theme-sonder .font-sonder-display {
+  font-family: var(--font-sonder-display), ui-serif, serif;
+}
+
+.theme-sonder .sonder-section {
+  background-color: var(--sonder-white);
+  color: var(--foreground);
+}
+
+.theme-sonder .sonder-section-alt {
+  background-color: var(--sonder-surface);
+  color: var(--foreground);
+}
+
+.theme-sonder .sonder-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 100px;
+  background-color: var(--sonder-accent);
+  color: var(--sonder-white);
+  padding: 0.875rem 2rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.theme-sonder .sonder-btn:hover {
+  background-color: var(--sonder-accent-hover);
+}
+
+.theme-sonder .sonder-btn:active {
+  transform: scale(0.97);
+}
+
+.theme-sonder .sonder-btn-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 100px;
+  background-color: var(--sonder-white);
+  color: var(--sonder-navy);
+  padding: 0.625rem 1.5rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 24px rgb(26 37 48 / 0.08);
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.theme-sonder .sonder-btn-white:hover {
+  background-color: var(--sonder-surface-alt);
+  box-shadow: 0 8px 32px rgb(26 37 48 / 0.12);
+}
+
+.theme-sonder .sonder-btn-white:active {
+  transform: scale(0.97);
+}
+
+.theme-sonder .sonder-phone-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 100px;
+  background-color: var(--sonder-navy);
+  color: var(--sonder-white);
+  padding: 0.625rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: background-color 0.3s ease;
+}
+
+.theme-sonder .sonder-phone-pill:hover {
+  background-color: var(--sonder-navy-light);
+}
+
+.theme-sonder .sonder-hero-text-shadow {
+  text-shadow:
+    0 2px 24px rgb(0 0 0 / 0.35),
+    0 1px 4px rgb(0 0 0 / 0.25);
+}
+
+.theme-sonder .sonder-social-card {
+  background-color: var(--sonder-white);
+  border-radius: var(--sonder-radius-md);
+  padding: 1rem 1.25rem;
+  box-shadow: 0 12px 40px rgb(26 37 48 / 0.12);
+}
+
+.theme-sonder .sonder-heading {
+  font-family: var(--font-sonder-display), ui-serif, serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.theme-sonder .sonder-heading-giant {
+  font-family: var(--font-sonder-hero), ui-sans-serif, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+  text-transform: uppercase;
+}
+
+.theme-sonder .sonder-label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sonder-blue-muted);
+}
+
+.theme-sonder .sonder-stat-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--sonder-navy);
+  color: var(--sonder-white);
+  border-radius: var(--sonder-radius-md);
+  padding: 1.25rem 1.5rem;
+}
+
+.theme-sonder .sonder-card {
+  background-color: var(--sonder-white);
+  border: 1px solid var(--sonder-border);
+  border-radius: var(--sonder-radius-md);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.theme-sonder .sonder-card:hover {
+  box-shadow: 0 8px 30px rgb(26 37 48 / 0.08);
+}
+
+.theme-sonder .sonder-editorial-row {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+  .theme-sonder .sonder-editorial-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+.theme-sonder .sonder-highlight-pill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.125rem;
+  border-radius: var(--sonder-radius-sm);
+  background-color: var(--sonder-navy);
+  color: var(--sonder-white);
+  padding: 0.75rem 1rem;
+}
+
+.theme-sonder .sonder-highlight-pill span:first-child {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.theme-sonder .sonder-highlight-pill span:last-child {
+  font-size: 0.625rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 0.65);
+}
+
+.theme-sonder .scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.theme-sonder .scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .theme-sonder .sonder-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

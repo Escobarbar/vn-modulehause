@@ -4,6 +4,7 @@ import { modelSlugs } from "@/content/models";
 
 const staticRoutes = [
   "",
+  "/v3",
   "/sauna",
   "/kontakt",
   "/ueber-uns",
@@ -23,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${base}${route}`,
     lastModified,
     changeFrequency: route === "" ? ("weekly" as const) : ("monthly" as const),
-    priority: route === "" ? 1 : 0.8,
+    priority: route === "" ? 1 : route === "/v3" ? 0.9 : 0.8,
   }));
 
   const modelEntries = modelSlugs.map((slug) => ({
